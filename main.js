@@ -30,7 +30,7 @@ var design = anime({
     loop: true
   });
   
-  document.addEventListener("click", function()
+document.addEventListener("click", function()
 {
     window.location="./index.html";
 });
