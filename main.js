@@ -25,7 +25,7 @@ var design = anime({
     translateY: -10,
     easing: 'easeInOutSine',
     duration: 2500,
-    delay: function(el, i) { return i * 250 },
+    delay: function(el, i) { return i * 250 }, 
     direction: 'alternate',
     loop: true
   });
